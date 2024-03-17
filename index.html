@@ -1,0 +1,13 @@
+<label> FirstName </label>
+<input type = "text" placeholder="type here" id="fname" onkeyup="myfunction()">
+<br>
+<label> SencondName </label>
+<input type="text" placeholder="type here" id="sname">
+<br>
+<textarea id="area" rows="10" columns="20"></textarea>
+<script>
+function myfunction(){
+document.getElementById("area").value=document.getElementById("fname").value;
+}
+
+</script>
